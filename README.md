@@ -6,24 +6,13 @@ PureTOTP is a small C++ library for generating TOTP codes without external depen
 
 ## Features
 
-- Minimal and easy to integrate
-- No third-party dependencies
-- Simple CMake build
-
-## Project Structure
-
-PureTOTP/
-©À©¤ include/
-©¦  ©¸©¤ TOTP/
-©¦     ©¸©¤ TOTP.h
-©À©¤ src/
-©¦  ©¸©¤ TOTP.cpp
-©¸©¤ CMakeLists.txt
+- Totally local implementation, no third-party dependencies
+- Minimal and easy to integrate and cross platform
 
 ## Requirements
 
 - CMake 3.10+
-- A C++11-compatible compiler
+- A C++11 compatible compiler
 
 ## Build
 
@@ -120,7 +109,7 @@ int main() {
 }
 ```
 
-### 4. Use custom parameters
+### 4. Use the instance-based API with custom parameters
 
 ```cpp
 #include <iostream>
@@ -139,7 +128,7 @@ int main() {
 }
 ```
 
-## Minimal Example Project
+## Minimal Example
 
 ```cpp
 #include <iostream>
